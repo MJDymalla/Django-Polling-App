@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
-{% block content %}
 
+{% block content %}
 <div class="card text-center">
     <div class="card-body">
-        <h1>Welcome to Pollster</h1>
-        <p>This is a Django Application</p>
+        <h1>Welcome to the Poll Central</h1>
+        <h4>Getting answers to the real questions</h4>
+        <p><i>This application allows you to create and post polls as well as answer already exisiting ones.</i></p>
         <a href="{% url 'polls:index' %}" class="btn btn-dark">
             View Available Polls
         </a>
